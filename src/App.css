@@ -1,0 +1,25 @@
+body,
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+}
+
+#root {
+	height: -webkit-fill-available;
+	display: flex;
+	--primary-bg: #21b573;
+	--secondary-color: #424242;
+	--font-family: 'Montserrat', sans-serif;
+}
+
+.app {
+	display: flex;
+	flex: 1;
+	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}

@@ -1,0 +1,19 @@
+.button {
+	background: var(--primary-color);
+	font-family: var(--font-family);
+	padding: 1em;
+	border: 0;
+	color: white;
+	border-radius: 7px;
+	font-size: 0.9em;
+	font-weight: 800;
+	letter-spacing: 0.03em;
+	width: 100%;
+	margin: 0.5em;
+	cursor: pointer;
+}
+
+.disabled {
+	background: lightgray;
+	cursor: not-allowed;
+}
