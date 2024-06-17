@@ -9,20 +9,22 @@
 	flex-direction: row-reverse;
 	height: 860px;
 	padding: 0 6em;
+	align-items: center;
+	justify-content: center;
 }
 
-.banner-image {
+/* .banner-image {
 	flex: 0.7;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
-}
+} */
 
 .banner-product-description {
 	flex: 0.6;
 	display: flex;
 	justify-content: center;
-	align-items: flex-start;
+	align-items: center;
 	flex-direction: column;
 	padding: 0 2em;
 }
@@ -37,6 +39,8 @@
 	font-size: 1.5em;
 	margin-top: 1em;
 	font-weight: 400;
+	color: var(--sub-title);
+	text-align: center;
 }
 
 .product-desc-2 {
@@ -61,6 +65,11 @@
 		height: 600px;
 		padding: 0;
 	}
+}
+
+.banner-image {
+	flex: 1;
+	display: none;
 }
 
 @media (max-width: 1149px) {

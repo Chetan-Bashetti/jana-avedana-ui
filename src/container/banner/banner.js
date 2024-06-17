@@ -4,6 +4,7 @@ import MuiModal from 'components/Modal/MuiModal';
 import Button from 'components/Button/Button';
 
 import './banner.css';
+import QueryForm from 'components/QueryForm/QueryForm';
 
 const BannerDescription = ({ name = '', handleOpen, frame }) => {
 	return (
@@ -16,14 +17,14 @@ const BannerDescription = ({ name = '', handleOpen, frame }) => {
 					className='product-name'
 					style={{ color: frame === 1 ? 'white' : '' }}
 				>
-					Tranquil
+					Jana Avedana
 				</div>
 				<div
 					className='product-desc'
 					style={{ color: frame === 1 ? 'white' : '' }}
 				>
-					What you need is more sunlight, more candor, and more unashamed
-					conversation.
+					We are here to help you resolve your queries related to government
+					infrastructre, schemes, benifits, and other aspects
 				</div>
 				<div style={{ marginTop: '3em' }}>
 					<Button title='Make appointment' onClick={handleOpen} />
@@ -57,7 +58,7 @@ const Banner = ({ setSnackBar }) => {
 			</div>
 
 			<MuiModal
-				children={<>Your consultataion has been confirmed for Sunday 2PM </>}
+				children={<QueryForm />}
 				open={open}
 				handleClose={handleClose}
 			/>
