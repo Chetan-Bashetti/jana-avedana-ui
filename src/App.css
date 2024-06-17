@@ -10,6 +10,7 @@ html {
 	display: flex;
 	--primary-bg: #21b573;
 	--secondary-color: #424242;
+	--sub-title: #86898d;
 	--font-family: 'Montserrat', sans-serif;
 }
 
