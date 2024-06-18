@@ -53,11 +53,16 @@ const NavBar = () => {
 						style={{
 							position: 'fixed',
 							top: '1em',
-							right: '1em'
+							right: '1em',
+							cursor: 'pointer'
 						}}
 					/>
 				) : (
-					<MenuIcon />
+					<MenuIcon
+						style={{
+							cursor: 'pointer'
+						}}
+					/>
 				)}
 			</div>
 		</header>
